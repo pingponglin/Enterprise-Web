@@ -1,0 +1,9 @@
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Release\DAL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Release\DAL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Release\Model.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Release\Model.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Release\DAL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Release\DAL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Release\DAL.csproj.CopyComplete
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Release\DAL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Release\DAL.pdb

@@ -1,0 +1,195 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS/jquery-3.5.1.js"></script>
+    <style>
+        html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsla(0, 100%, 80%, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.box{
+    display: flex;
+}
+.master{
+    width:110px;
+    height:100px;
+    border-radius: 20px;
+    background: red;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    box-shadow: 0 10px 20px rgba(0,0,0,.5);
+    position: relative;
+    animation: jumping 0.1s infinite;
+    transition: all 0.1s;
+}
+.master .eyes{
+    width:35%;
+    height:35%;
+    border-radius:50%;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.eyes-ball{
+    width:30%;
+    height:30%;
+    border-radius: 50%;
+    background-color: #000;
+    animation: eyesmove 0.1s  ease-in infinite alternate;
+}
+.master .mouth{
+    width:40%;
+    height:10px;
+    border-radius:12px;
+    background-color:blue;
+    margin-top: 20px;
+}
+.master.blue{
+    background-color: blue;
+    animation-delay: 0.1s;
+}
+.master.blue .mouth{
+    background: red;
+}
+.master::before,
+.master::after{
+    content:'';
+    display: block;
+    width: 12px;
+    height: 20px;
+    border-radius: 12px 12px 0 0;
+    background: #fff;
+    position: absolute;
+    top: -15px;
+    transform: translateX(-6px) rotate(45deg);
+    transform-origin: 100% 100%;
+}
+.master::after{
+    transform:translateX(6px) rotate(-45deg);
+    transform-origin: 0 100%;
+}
+ 
+/*****遮罩层*****/
+.model{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: palevioletred;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loading{
+    width: 200px;
+    height: 10px;
+    border-radius:12px;
+    background-color: #fff;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.loading .loading-bar{
+    width: 0%;
+    height: 10px;
+    background: red;
+}
+.jz-loading{
+    color: blue;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(100px);
+}
+.move{
+    transform: scale(0.1) rotate(360deg);
+}
+/*****动画*****/
+@keyframes jumping{
+    0%{
+        top:0;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    }
+    50%{
+        top:-50px;
+        box-shadow: 0 100px 20px rgba(0, 0, 0, .3);
+    }
+    100%{
+        top:0;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    }
+}
+@keyframes eyesmove{
+    0%{
+        transform: translateX(-100%);
+    }
+    10%{
+        transform: translateX(-100%);
+    }
+    90%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform: translateX(100%);
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="master">
+            <div class="eyes">
+                <div class="eyes-ball"></div>
+            </div>
+            <div class="mouth"></div>
+        </div>
+        <div class="master blue">
+            <div class="eyes">
+                <div class="eyes-ball"></div>
+            </div>
+            <div class="mouth"></div>
+        </div>
+    </div>
+    <div class="model">
+        <div class="master">
+            <div class="eyes">
+                <div class="eyes-ball"></div>
+            </div>
+            <div class="mouth"></div>
+        </div>
+        <div class="loading">
+            <div class="loading-bar"></div>
+        </div>
+        <div class="jz-loading">加载中 . . .</div>
+    </div>
+    <script>
+        var timer =null;
+var add =0;
+timer=setInterval(()=>{
+    add++;
+    $('.loading-bar').css('width',`${add}%`);
+    if(add>=1){
+      
+        $('.model .master').addClass('move'); location.href ="/Staff/StaffHome.aspx";
+        $('.model').fadeOut();
+        clearInterval(timer);
+        timer =null;
+    }
+},30)
+    </script>
+</body>
+</html>

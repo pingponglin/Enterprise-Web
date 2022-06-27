@@ -1,0 +1,72 @@
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\bin\Debug\Model.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\周\Desktop\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\周\Desktop\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\周\Desktop\ZY\DAL\bin\Debug\Model.dll
+C:\Users\周\Desktop\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\周\Desktop\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\周\Desktop\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\周\Desktop\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\周\Desktop\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\周\Desktop\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\bin\Debug\Model.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\Model.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\Model.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\熙林\Desktop\1\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\熙林\Desktop\1\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\熙林\Desktop\1\ZY\DAL\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\1\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\1\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\1\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\1\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\熙林\Desktop\1\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\熙林\Desktop\1\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Debug\DAL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Debug\DAL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Debug\DAL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Debug\DAL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\DAL\obj\Debug\DAL.csprojAssemblyReference.cache

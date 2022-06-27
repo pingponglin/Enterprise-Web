@@ -1,0 +1,40 @@
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\Model\bin\Debug\Model.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\Model\bin\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\Model\obj\Debug\Model.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\Model\obj\Debug\Model.pdb
+C:\Users\周\Desktop\ZY\Model\bin\Debug\Model.dll
+C:\Users\周\Desktop\ZY\Model\bin\Debug\Model.pdb
+C:\Users\周\Desktop\ZY\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\周\Desktop\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\周\Desktop\ZY\Model\obj\Debug\Model.dll
+C:\Users\周\Desktop\ZY\Model\obj\Debug\Model.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\Model\bin\Debug\Model.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\Model\bin\Debug\Model.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\11635\Desktop\新建文件夹\ZY\Model\obj\Debug\Model.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\Model\obj\Debug\Model.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\Model\bin\Debug\Model.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\Model\bin\Debug\Model.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\Model\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\Model\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\Model\obj\Debug\Model.pdb
+C:\Users\熙林\Desktop\1\ZY\Model\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\1\ZY\Model\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\1\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\1\ZY\Model\obj\Debug\Model.dll
+C:\Users\熙林\Desktop\1\ZY\Model\obj\Debug\Model.pdb
+C:\Users\熙林\Desktop\1\ZY\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\Model\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\Model\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\Model\obj\Debug\Model.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\Model\obj\Debug\Model.pdb

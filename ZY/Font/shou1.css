@@ -1,0 +1,89 @@
+.grid{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.grid-i{
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.nav{
+    width: 216px;
+    background-color: rgb(32, 55, 82);
+    height: 792px;
+}
+
+.a1:hover {
+    background-color: rgb(20, 41, 65);
+    color: #FFFFFF;
+    transition: 0.5s linear 0.5ms;
+}
+.a1 {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: 216px;
+    height: 60px;
+}
+.u {
+    background-color: rgb(14, 29, 46);
+    width: 216px;
+}
+.navmenu{
+    margin-bottom: 25px;
+}
+.d_img{
+    position: relative;
+    top: 7px;
+}
+.d_img1{
+    position: relative;
+    top: 7px;
+    left: 46px;
+}
+.d_img2 {
+    position: relative;
+    top: 7px;
+    left: 46px;
+}
+.right_t {
+    width: 1303px;
+    height: 53px;
+    background-color: rgb(255, 255, 255);
+ 
+    margin: 0px 0px 4px 0px;
+}
+.right_x {
+    width: 1303px;
+    height: 739px;
+    background-color: rgb(255, 255, 255);
+}
+.right_img{
+    position: relative;
+    top: 9px;
+    left: 10px;
+}
+.right{
+    /* 108 */
+    position: absolute;
+   left: 108px;
+   top: 0;
+   right: 0;
+   bottom: 0;
+}
+.right_span{
+    position: relative;
+    left: 30px;  
+}
+.right-float{
+    float: right;
+}
+.right_s{
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+.num{
+    width: 100%;
+    
+}

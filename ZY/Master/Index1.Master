@@ -1,0 +1,228 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index1.Master.cs" Inherits="ZY.Index" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>乒乒乓乓人力系统</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+
+
+    <%--<link rel="stylesheet" href="../Font/s1.css" />--%>
+    <link rel="stylesheet" href="../Font/gog.css" />
+    <link rel="stylesheet" href="../Font/shou1.css" />
+    <link rel="stylesheet" href="../Font/zzsc.css" />
+    <script src="../JS/jquery-3.5.1.js"></script>
+    <%--<script src="../JS/google.js"></script>
+    <script src="../JS/maps.js"></script>--%>
+    <%--<script src="../JS/maps.js"></script>--%>
+    <%--<script>
+        if (window.top !== window.self) {
+            window.top.location = window.location;
+        }
+    </script>--%>
+   <%--  <script type="text/javascript">$(document).ready(function () { $().maps(); });</script>--%>
+    <style>
+        * {
+            font-family: "微软雅黑";
+        }
+
+        .d_imge {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px 10px;
+            position: relative;
+            right: 9px;
+        }
+
+        .d_span {
+            font-size: 20px;
+        }
+
+        .right_zhan {
+            width: 1303px;
+            height: 40px;
+            box-shadow: rgb(100, 99, 99) 0px 0px 4px;
+        }
+
+        .right_x {
+            position: relative;
+            top: 10px;
+            height: 690px;
+            background-color: white;
+        }
+
+        .right_t {
+            position: relative;
+            height: 53px;
+            background-color: rgb(255, 255, 255);
+        }
+
+        .right_t {
+            box-shadow: none;
+        }
+       /* @media screen and (max-width: 1366px) {
+            .num {
+                width: 0%;
+                height: 0%;
+                position: relative;
+                left: 0px;
+                right: 0px;
+                bottom: 0;
+                top: 0px;
+                margin: 0;
+            }
+
+            .right_t {
+                width: 1149px;
+            }
+
+            .right_zhan {
+                width: 1149px;
+            }
+
+            .right_x {
+                width: 1131px;
+               
+            }
+
+            .nav {
+                width: 216px;
+                background-color: rgb(32, 55, 82);
+                height: 656px;
+            }
+        }*/
+
+        .site {
+            color: black;
+            line-height: 40px;
+        }
+
+        .site_d {
+            width: 50px;
+            height: 20px;
+        }
+
+        .d {
+            line-height: 60px;
+            position: relative;
+            top: 10px;
+        }
+      .right-float_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 28px 28px;
+            position: relative;
+            right: 30px;
+            top: 0px;
+        }
+      .right {
+    position: absolute;
+    left: 111px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+    </style>
+  
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: white;">
+    <div class="num">
+        <div class="left grid">
+            <div class="nav">
+                <ul class="d">
+                    <li class="navmenu grid-i hide show">
+                        <a href="/Index.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PingPong系统</a>
+                    </li>
+                    <li class="navmenu grid-i hide show">
+                        <a href="/Index.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="d_img" src="../Image/5.png">&nbsp;首页</a>
+                    </li>
+                    <li class="navmenu grid-i show jd">
+                        <a href="#" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="d_img" src="../Image/9.png">&nbsp;部门信息<img id="img_id1" class="d_img1" src="../Image/3.png"></a>
+                        <ul class="u uu">
+                            <li>
+                                <a href="/Class/ClassMain.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;部门管理</a>
+                            </li>
+                            <li>
+                                <a href="/Class/PostMain.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;职位管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navmenu grid-i hide">
+                        <a href="#" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="d_img" src="../Image/7.png">&nbsp;员工信息<img id="img_id" class="d_img2" src="../Image/3.png"></a>
+                        <ul class="u ue">
+                            <li>
+                                <a href="/Money/Money.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;薪资管理</a>
+                            </li>
+                            <li>
+                                <a href="/Staff/StaffHome.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;员工管理</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="navmenu grid-i hide show">
+                        <a href="/Recruit/RecruitHome.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="d_img" src="../Image/6.png">&nbsp;招聘管理</a>
+                    </li>
+                    <li class="navmenu grid-i hide show">
+                        <a href="/Users/Users.aspx" class="a1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="d_img" src="../Image/8.png">&nbsp;系统管理</a>
+                    </li>
+                </ul>
+            </div>
+             
+            <div class="right hide show">
+                <div class="right">
+                    <div class="right_t">
+                        <img src="../Image/10.png" alt="" class="right_img"><a href="/Index.aspx" class="right_span">首页/引导页</a>
+                        <div class="right-float">
+                            <ul class="venus-menu" style="position: relative; right: 51px;">
+                                <li><a href="#" class="a2">
+                                    <img src="../image/1.jpg" class="right-float_img" style="position: relative; right: 0px;"><asp:Label ID="Label1" runat="server" Text="" Style="position: relative; bottom: 13px;"></asp:Label></a><ul>
+                                        <li><a href="#" class="a2">个人中心</a></li>
+                                        <li><a href="#" class="a2">退出登录</a></li>
+                                    </ul>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="right_zhan">
+                        <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="site"></asp:SiteMapPath>
+                    </div>
+                    <div class="right_x">
+                        <form id="form1" runat="server">
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+   
+  <script>
+        $(".navmenu ul").hide();
+        $(".jd").click(function () {
+                $(this).children("ul").show();
+                document.getElementById("img_id1").src = "../image/4.png";
+        })
+        $(".hide").mousemove(function () {
+            $('.uu').hide();
+                document.getElementById("img_id1").src = "../image/3.png";
+        })
+        $(".navmenu:eq(3)").click(function () {
+                $(this).children("ul").show();
+                document.getElementById("img_id").src = "../image/4.png";
+        })
+        $(".show").mousemove(function () {
+                $('.ue').hide();
+                document.getElementById("img_id").src = "../image/3.png";
+            })
+            //$(".right_s").click(function(){
+            //    $(".right_input").toggle();
+            //});
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+/*******************************窗体样式*********************************/
+#testdiv{width:600px;margin:0 auto;border:1px solid #ccc;padding:20px 25px;background:#fff}
+#sysbox{ 
+	position: fixed;
+	display:none;
+	background:#fff url(../images/preload.gif) no-repeat 50% 50%;
+	z-index:2000;
+	box-shadow:0px 3px 6px rgba(0,0,0,0.3);
+	*border:1px solid #DDDDDD;
+}
+#sysmask{position:absolute;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.8);z-index:1500}
+#syscontent{overflow: hidden;}
+#sys-move-event{
+	bottom: 0;
+    width: 10px;
+    height: 10px;
+    right:0;
+    position: absolute;
+}
+#sysbox.Prompt{
+	position:absolute;
+	color: #FFFFFF;
+	font-size: 14px;
+	border:0px!important;
+	background: rgba(0,0,0,0.7)!important;
+	border: 0px;
+	z-index: 111111111111;
+	border-radius: 3px;
+	min-width: 120px;
+	text-align: center;
+	box-shadow: 0px 0px 0px !important;
+}
+#sysbox.Prompt .sys-content{background: none!important;}
+#sysbox.mobileStyle{
+	list-style-type: none;
+	background: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	border-radius: 5px;
+    box-shadow: inset 0 -2px 0 #FFFFFF, 0 1px 0 #FFFFFF, 0 2px 0 #9fa2ad, 0 3px 0 #FFFFFF, 0 4px 0 #9fa2ad;
+}
+.sys-title{ 
+	height: 40px; 
+	line-height: 40px; 
+	border-bottom:1px solid #dddddd;
+	border-radius:5px 5px  0px 0px; 
+	padding: 0 10px;
+	position: relative; 
+	background: #f2f2f2;
+	*padding: 0px 10px;
+	*margin: 0px;
+}
+.sys-oper-box{position: absolute;right: 10px; height: 40px; line-height: 40px;}
+.sys-oper-box  .sys-oper{ 
+	float: left;
+    width: 21px;
+    height: 19px;
+    margin-top: 10px;
+    *margin-top: 0px;
+    display: block;
+    margin-left: 5px;
+    background: url(../images/tool.png) no-repeat;
+}
+.sys-oper-box .sys-revert-oper{background-position: 0 0;}
+.sys-oper-box .sys-sysnarrow-oper{background-position: -29px 0;}
+.sys-oper-box .sys-close-oper{background-position: -89px 0;}
+.sys-oper-box .sys-magnify-oper{background-position: -60px 0;}
+.sys-oper-box .sys-shrink-oper{ background-position: -149px 0;}
+.sys-oper-box .sys-sysnarrow-oper:hover{background-position: -29px -29px;}
+.sys-oper-box .sys-close-oper:hover{ background-position: -89px -29px;}
+.sys-oper-box .sys-magnify-oper:hover{background-position: -60px -29px;}
+.sys-oper-box .sys-shrink-oper:hover{ background-position: -149px -29px;}
+.sys-btn-operate{
+	height: 50px; 
+	width: 100%;
+	position: absolute;
+	border-top: 1px solid #DDDDDD;
+	line-height: 50px;
+	bottom: 3px;
+	left: 0px;
+}
+.sys-btn-operate button{ 
+	border: 0px; 
+	border-right: 1px solid #DDDDDD; 
+	line-height: 50px; 
+	text-align: center; 
+	background: #FFFFFF;
+	cursor: pointer;
+	border-radius: 0px;
+}
+.sys-btn-operate button:last-of-type{border-right: 0px;}
+/**********提示弹出层样式**********/
+.box_Bullet{
+	position: fixed;
+	padding: 10px;
+	color: #FFFFFF;
+	font-size: 14px;
+	background-color: rgba(0,0,0,0.6);
+	top:50%;
+	z-index: 111111111111;
+	border-radius: 3px;
+	min-width: 120px;
+	text-align: center;		
+}
+@media \0screen\,screen\9 {
+	.box_Bullet{
+    background-color:#000000;
+	filter:Alpha(opacity=560);/* 只支持IE6、7、8、9 */
+    position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+    *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */	
+	}
+}
+/***********弹框样式结束end**************/
+/****************************************************其他样式*******************************************************/
+.piu_box{border: 1px solid #DDDDDD; padding: 15px; position: relative;z-index: 1;}
+.box_title{ position: absolute; background: #FFFFFF;z-index:11 ; height: 30px;line-height: 30px; left: 20px; padding: 0px 10px;top:-15px; font-size: 16px;}
+.box_explain{border:1px solid #F07102; background: #fff0e4; color: #F07102; padding: 10px;}
+.summary_box{ border: 1px solid #0785D1; background: #C3E1FF; color: #0785D1; padding: 15px; margin-bottom: 30px;}

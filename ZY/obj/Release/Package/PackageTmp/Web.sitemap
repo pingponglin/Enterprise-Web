@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Index.aspx" title="首页"  description="">
+    <siteMapNode url="/Class/ClassMain.aspx" title="部门管理"  description="" />
+	  <siteMapNode url="/Class/ClassAdd.aspx" title="部门管理"  description="" />
+	  <siteMapNode url="/Class/EditClass.aspx" title="部门管理"  description="" />
+    <siteMapNode url="/Class/PostMain.aspx" title="职位管理"  description="" />
+	  <siteMapNode url="/Class/PostAdd.aspx" title="职位管理"  description="" />
+	  <siteMapNode url="/Class/EditPost.aspx" title="职位管理"  description="" />
+	  <siteMapNode url="/Staff/StaffHome.aspx" title="在职员工"  description="" />
+	  <siteMapNode url="/Staff/StaffAdd.aspx" title="在职员工"  description="" />
+	  <siteMapNode url="/Staff/StaffUpd.aspx" title="在职员工"  description="" />
+	  <siteMapNode url="/Staff/StaffUpd1.aspx" title="在职员工"  description="" />
+	  <siteMapNode url="/Entry/EntryHome.aspx" title="员工入职"  description="" />
+	  <siteMapNode url="/Entry/EntryAdd.aspx" title="员工入职"  description="" />
+	  <siteMapNode url="/Work/WorkHome.aspx" title="员工调岗"  description="" />
+	  <siteMapNode url="/Work/WorkUpd.aspx" title="员工调岗"  description="" />
+	  <siteMapNode url="/Leave/LeaveHome.aspx" title="员工离职"  description="" />
+	  <siteMapNode url="/Text/TextHome.aspx" title="调岗记录"  description="" />
+	  <siteMapNode url="/Money/Money.aspx" title="薪资管理"  description="" />
+  </siteMapNode>
+</siteMap>
+

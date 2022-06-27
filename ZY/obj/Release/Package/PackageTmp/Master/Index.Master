@@ -1,0 +1,694 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Index.Master.cs" Inherits="ZY.Master.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <style>
+        @charset "utf-8";
+        /* 以下实际使用若已初始化可删除 .nav height父级需逐级设置为100%*/
+        body, html {
+            height: 100%;
+        }
+
+        body, ul {
+            margin: 0;
+            padding: 0
+        }
+
+        body {
+            font: 14px "微软雅黑","宋体","Arial Narrow",HELVETICA;
+            -webkit-text-size-adjust: 100%;
+        }
+
+        li {
+            list-style: none
+        }
+
+        .a {
+            text-decoration: none;
+        }
+        /* 以上实际使用若已初始化可删除 */
+
+        /* nav */
+        .nav1 {
+            width: 220px;
+            height: 837px;
+            background: #263238;
+            transition: all .3s;
+        }
+
+            .nav1 .a4 {
+                display: block;
+                overflow: hidden;
+                padding-left: 20px;
+                line-height: 46px;
+                max-height: 46px;
+                color: white;
+                transition: all .3s;
+                text-decoration: none;
+            }
+
+                .nav1 .a4 span {
+                    margin-left: 30px;
+                }
+
+        .nav-item {
+            position: relative;
+            top: 1px;
+            padding: 20px 0px;
+        }
+
+            .nav-item.nav-show {
+                border-bottom: none;
+            }
+
+            .nav-item ul {
+                display: none;
+                background-color: rgb(32, 55, 82);
+            }
+
+            .nav-item.nav-show ul {
+                display: block;
+            }
+
+            .nav-item > .a4:before {
+                content: "";
+                position: absolute;
+                left: 0px;
+                width: 2px;
+                height: 46px;
+                background: #34A0CE;
+                opacity: 0;
+                transition: all .3s;
+            }
+
+        .nav1 .nav-icon {
+            font-size: 20px;
+            position: absolute;
+            margin-left: -1px;
+        }
+        /* 此处修改导航图标 可自定义iconfont 替换*/
+        .icon_1::after {
+            content: "\e62b";
+        }
+
+        .icon_2::after {
+            content: "\e669";
+        }
+
+        .icon_3::after {
+            content: "\e61d";
+        }
+        /*---------------------*/
+        .nav-more {
+            float: right;
+            margin-right: 20px;
+            font-size: 12px;
+            transition: transform .3s;
+        }
+            /* 此处为导航右侧箭头 如果自定义iconfont 也需要替换*/
+            .nav-more::after {
+                content: "\e621";
+            }
+        /*---------------------*/
+        .nav-show .nav-more {
+            transform: rotate(90deg);
+        }
+
+        .nav-show, .nav-item > .a4:hover {
+            color: #FFF;
+            background: rgba(0,0,0,.1);
+        }
+
+            .nav-show > .a4:before, .nav-item > .a4:hover:before {
+                opacity: 1;
+            }
+
+        .nav-item li:hover .a4 {
+            color: white;
+            background-color: skyblue;
+        }
+
+        .a4 {
+        }
+        /* nav-mini */
+        .nav-mini.nav1 {
+            width: 60px;
+        }
+
+            .nav-mini.nav1 .nav-icon { /* margin-left:-2px; */
+            }
+
+            .nav-mini.nav1 .nav-item > .a4 span {
+                display: none;
+            }
+
+            .nav-mini.nav1 .nav-more {
+                margin-right: -20px;
+            }
+
+            .nav-mini.nav1 .nav-item ul {
+                position: absolute;
+                top: 0px;
+                left: 60px;
+                width: 180px;
+                z-index: 99;
+                background: #3C474C;
+                overflow: hidden;
+            }
+
+            .nav-mini.nav1 .nav-item:hover {
+                background: rgba(255,255,255,.1);
+            }
+
+                .nav-mini.nav1 .nav-item:hover .nav-item .a4 {
+                    color: #FFF;
+                }
+
+                .nav-mini.nav1 .nav-item:hover .a4:before {
+                    opacity: 1;
+                }
+
+                .nav-mini.nav1 .nav-item:hover ul {
+                    display: block;
+                }
+
+        .s {
+            width: 1459px;
+        }
+        .venus-menu ul {
+    top: 56px;
+    left: 40px;
+    padding-top: 10px;
+}
+    </style>
+    <link rel="stylesheet" href="../Font/iconfont.css" />
+    <style>
+        * {
+            font-family: "微软雅黑";
+        }
+
+        .d_imge {
+            width: 50px;
+            height: 50px;
+            border-radius: 10px 10px;
+            position: relative;
+            right: 9px;
+        }
+
+        .d_span {
+            font-size: 20px;
+        }
+
+        .right_zhan {
+            height: 40px;
+            box-shadow: rgb(100, 99, 99) 0px 0px 4px;
+            font-size: 15px;
+            background-color: white;
+        }
+
+        .right_x {
+            position: relative;
+            top: 10px;
+            height: 690px;
+        }
+
+        .grid {
+            display: flex;
+            flex-wrap: nowrap;
+        }
+
+        .grid-i {
+            flex-grow: 1;
+            flex-shrink: 1;
+        }
+
+        .nav1 {
+            width: 216px;
+            background-color: rgb(32, 55, 82);
+            height: 837px;
+            transition: all .3s;
+        }
+
+        .a1:hover {
+            background-color: rgb(20, 41, 65);
+            color: #FFFFFF;
+            transition: 0.5s linear 0.5ms;
+        }
+
+        .a1 {
+            text-decoration: none;
+            color: white;
+            display: inline-block;
+            width: 216px;
+            height: 60px;
+        }
+
+        .u {
+            background-color: rgb(14, 29, 46);
+            width: 216px;
+        }
+
+        .navmenu {
+            margin-bottom: 25px;
+        }
+
+        .d_img {
+            position: relative;
+            top: 7px;
+        }
+
+        .d_img1 {
+            position: relative;
+            top: 7px;
+            left: 46px;
+        }
+
+        .d_img2 {
+            position: relative;
+            top: 7px;
+            left: 46px;
+        }
+
+        .right_t {
+            height: 53px;
+            background-color: rgb(255, 255, 255);
+            box-shadow: none;
+            font-size: 15px;
+        }
+
+        .right_x {
+            width: 1303px;
+            height: 741px;
+            position: relative;
+            top: -11px;
+        }
+
+        .right_img {
+            position: relative;
+            top: 9px;
+            left: 10px;
+        }
+
+        .right {
+            /* 108 */
+            position: absolute;
+            left: 111px;
+            top: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .right_span {
+            position: relative;
+            left: 30px;
+        }
+
+        .right-float {
+            float: right;
+            position: relative;
+            bottom: 53px;
+            left: 0px;
+            font-size: 15px;
+        }
+
+        .right_s {
+            position: relative;
+            right: 50px;
+            bottom: 10px;
+        }
+
+        .num {
+            width: 100%;
+        }
+
+        .site {
+            color: black;
+            line-height: 40px;
+        }
+
+        .site_d {
+            width: 50px;
+            height: 20px;
+        }
+
+        .d {
+            line-height: 60px;
+            position: relative;
+            top: 10px;
+        }
+
+        .right-float_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 28px 28px;
+            position: relative;
+            right: 30px;
+            top: 0px;
+        }
+
+        .nav1 {
+            font-size: 17px;
+        }
+
+        .right-w {
+            width: 1456px;
+            position: relative;
+            top: -9px;
+        }
+
+        .m1_m {
+            width: 794px;
+            height: 724px;
+            background-color: white;
+            position: relative;
+            top: 6px;
+            left: 18px;
+            float: left;
+            box-shadow: rgb(100, 99, 99) 0px 0px 8px;
+        }
+
+        .m2_m {
+            width: 585px;
+            text-align: center;
+        }
+
+        .m2_calendar {
+            margin: 0 auto;
+        }
+
+        .m3_m {
+            width: 585px;
+        }
+
+        .m3_calendar1 {
+            margin: 0 auto;
+        }
+        .size{
+           text-shadow: 5px -5px white, 4px -4px white; font-weight: bold; -webkit-text-fill-color: transparent; -webkit-background-clip:text;
+        }
+    </style>
+    <link rel="stylesheet" href="../Font/zzsc.css">
+    <script src="../JS/maps.js"></script>
+    <script src="../JS/google.js"></script>
+    <%--    <script type="text/javascript">$(function () { $().maps(); });</script>--%>
+    <script src="../JS/jquery-3.5.1.js"></script>
+    <link rel="stylesheet" type="text/css" href="../Font/style1.css" />
+
+    <link rel="stylesheet" type="text/css" href="../Font/1.css" />
+    <script src="../JS/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="../JS/bootbox.min.js"></script>
+    <script src="../layer/layer.js"></script>
+    <script>
+        function M() {
+            layer.open({
+                content: '修改成功',
+                scrollbar: false
+            });
+        }
+        function M1() {
+            layer.open({
+                content: '修改失败',
+                scrollbar: false
+            });
+        }
+    </script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body style="background-color: #f3f3f3;">
+    <form id="form1" runat="server">
+        <div style="height: 100%;">
+            <div class="nav1" style="float: left">
+                <ul>
+                      <li class="nav-item">
+                         <%-- <a href="javascript:;" style="font-size: 20px;position: relative;left: 30px;" class="a4">PingPang</a>--%>
+                          <div style="font-size: 20px;position: relative;left: 18px;color: white;top: 31px;font-size: 31px;width: 165px;height: 165px;text-align: center; border: 1px solid;border-radius: 50%;border: 1px solid;border-radius: 18%;width: 175px;height: 82px" class="size"><span style="position: relative;top: 17px;left: -2px;">PingPang</span></div>
+                    </li>
+                    <li class="nav-item">
+                       <%-- <a href="javascript:;" style="font-size: 20px" class="a4">PingPong</a>--%>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="/Index.aspx" class="a4">
+                            <img class="d_img" src="../Image/5.png">首页</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:;" class="a4">
+                            <img class="d_img" src="../Image/9.png">部门信息<i class="my-icon nav-more"></i></a>
+                        <ul>
+                            <li><a href="/Class/ClassMain.aspx" class="a4"><span>部门管理</span></a></li>
+                            <li><a href="../Class/PostMain.aspx" class="a4"><span>职位管理</span></a></li>
+
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="javascript:;" class="a4">
+                            <img class="d_img" src="../Image/7.png">员工管理<i class="my-icon nav-more"></i></a>
+                        <ul>
+                            <li><a href="/Staff/StaffHome.aspx" class="a4"><span>在职员工</span></a></li>
+                            <li><a href="/Entry/EntryHome.aspx" class="a4"><span>员工入职</span></a></li>
+                           
+                            <li><a href="/Work/WorkHome.aspx" class="a4"><span>员工调岗</span></a></li>
+                            <li><a href="/Leave/LeaveHome.aspx"  class="a4"><span>员工离职</span></a></li>
+                        </ul>
+                    </li>
+                   
+                    <li class="nav-item">
+                        <a href="/Money/Money.aspx" class="a4">
+                            <img class="d_img" src="../Image/14.png">薪资管理</a>
+                    </li>
+                </ul>
+            </div>
+            <div style="width: 1519px; height: 834px">
+
+                <div class="right_t" style="overflow: auto;">
+                    <div id="mini" style="border-bottom: 1px solid rgba(255,255,255,.1)">
+                        <img src="../Image/10.png" alt="" class="right_img">
+                    </div>
+                </div>
+                <div class="right-float">
+                    <ul class="venus-menu" style="position: relative; right: 74px;">
+                        <li>
+                            <a href="#" class="a2 admi">
+                                <img src="<%=image11 %>"" class="right-float_img" style="position: relative; right: 0px;"><asp:Label ID="Label1" runat="server" Text="" Style="position: relative; bottom: 13px;"></asp:Label></a>
+                            <ul class="dul" style="left: 40px;">
+                                <li>
+                                    <a href="#" class="a2 grxingx" style="text-align: center;">个人信息</a>
+                                </li>
+                                <li><a href="#" class="a2 xiugai" style="text-align: center;">修改密码</a></li>
+                                <li><a href="/Loging.aspx" class="a2" style="text-align: center;">退出</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right_zhan">
+                    <asp:SiteMapPath ID="SiteMapPath1" runat="server" CssClass="site"></asp:SiteMapPath>
+                </div>
+                <div class="right_x" style="overflow: auto;">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+                <div class="export">
+                    <%--/个人信息--%>
+                    <div class="modal fade tang2" id="renyuan">
+                        <div class="modal-dialog modal-lg modal_position">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">个人信息</h4>
+                                    <button type="button" class="close c2" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <table id="xztb" class="table">
+                                        <!--新修改弹窗的样式-->
+                                        <asp:Repeater ID="Repeater1" runat="server">
+                                            <ItemTemplate>
+                                        <tbody>
+                                            <tr>
+                                                <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>头像</label>
+                                                </td>
+                                                <td>
+                                                    <img src='<%# Eval("Image") %>' style="width:40px;height:40px;" alt="" />
+
+                                                <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>姓名</label>
+                                                </td>
+                                                <td>
+                                                    <%# Eval("UserName") %>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>简介</label>
+                                                </td>
+                                                <td>
+                                                    <%# Eval("Jiajie") %></td>
+
+                                            </tr>
+                                        </tbody></ItemTemplate></asp:Repeater>
+                                    </table>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary que1" data-dismiss="modal">取消</button>
+                                    <button id="add_btn" type="button" class="btn btn-secondary que2">确定</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <%--/修改--%>
+                    <div class="modal fade tang1" id="renyuan1">
+                        <div class="modal-dialog modal-lg modal_position">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">修改信息</h4>
+                                    <button type="button" class="close c1" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <table id="xztb" class="table">
+                                        <!--新修改弹窗的样式-->
+                                        <tbody>
+                                            <tr>
+                                                <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>用户名</label>
+                                                </td>
+                                                <td>
+                                                    <asp:TextBox ID="TextBox1" runat="server" class="userName"></asp:TextBox>
+                                                    </td>
+                                                <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>密码</label>
+                                                </td>
+                                                <td>
+                                                    <asp:TextBox ID="TextBox2" runat="server" class="userName"></asp:TextBox>
+                                                    </td>
+                                            </tr>
+                                           <tr>
+                                                <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>个人介绍</label>
+                                                </td>
+                                               <td>
+                                                   <asp:TextBox ID="TextBox3" runat="server" class="userName"></asp:TextBox>
+                                                    </td>
+                                               <td class="tb_bg">
+                                                    <label for=""><font style="font-size: 14px; color: red;">*</font>头像</label>
+                                                </td>
+                                               <td>
+                                                   <asp:TextBox ID="TextBox4" runat="server"  style="width:100px;"></asp:TextBox>
+                                                   <asp:FileUpload ID="File_Image" runat="server" onchange="preImg(this)" /><asp:Image ID="Image1" runat="server" style="width:50px" />
+                                                    </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary que2" data-dismiss="modal">取消</button>
+                                   
+                                    <asp:Button ID="Button1" style="background-color:#3ea2ee;" runat="server" Text="确定" class="btn btn-secondary" OnClick="Button1_Click" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </form>
+  <script>
+      function preImg(sender) {
+          var img = document.getElementById("<%=Image1.ClientID %>");
+          img.src = window.URL.createObjectURL(sender.files[0]);
+      }
+
+  </script>
+    <script>
+        $(function () {
+            $('.nav-item>a').on('click', function () {
+                if (!$('.nav').hasClass('nav-mini')) {
+                    if ($(this).next().css('display') == "none") {
+                        //展开未展开
+                        $('.nav-item').children('ul').slideUp(300);
+                        $(this).next('ul').slideDown(300);
+                        $(this).parent('li').addClass('nav-show').siblings('li').removeClass('nav-show');
+                    } else {
+                        //收缩已展开
+                        $(this).next('ul').slideUp(300);
+                        $('.nav-item.nav-show').removeClass('nav-show');
+                    }
+                }
+            });
+
+            //nav-mini切换
+            $('#mini').on('click', function () {
+                if (!$('.nav').hasClass('nav-mini')) {
+                    $('.nav-item.nav-show').removeClass('nav-show');
+                    $('.nav-item').children('ul').removeAttr('style');
+                    $('.nav').addClass('nav-mini');
+                    /*$('.right_x').addClass('right-w');*/
+                    //$('.m1').addClass('m1_m');
+                    //$('.m2').addClass('m2_m');
+                    //$('.m3').addClass('m3_m');
+                    //$('.calendar1').addClass('m3_calendar1');
+                    //$('.calendar').addClass('m2_calendar');
+                    //$('.m1').removeClass('m1_m');
+                } else {
+                    $('.nav').removeClass('nav-mini');
+                    /*$('.right_x').removeClass('right-w');*/
+                    //$('.m1').removeClass('m1_m');
+                    //$('.m2').removeClass('m2_m');
+                    //$('.m3').removeClass('m3_m');
+                    //$('.calendar1').removeClass('m3_calendar1');
+                    //$('.calendar').removeClass('m2_calendar');
+                }
+            });
+        });
+    </script>
+
+    <script>
+        $(function () {
+            $(".dul").css("display", "none");
+            $(".admi").mouseover(function () {
+                $(".dul").css("display", "block");
+            })
+            $(".admi").mouseout(function () {
+                $(".dul").fadeOut(3000);
+            })
+            $(".xiugai").click(function () {
+                $(".tang1").css("display", "block");
+                $(".fade:not(.show)").css("opacity", "5");
+
+            })
+            $(".grxingx").click(function () {
+                $(".tang2").css("display", "block");
+                $(".fade:not(.show)").css("opacity", "5");
+
+            })
+            $(".c1").click(function () {
+                $(".tang1").css("display", "none");
+            })
+            $(".c2").click(function () {
+                $(".tang2").css("display", "none");
+            })
+            $(".que1").click(function () {
+                $(".tang2").css("display", "none");
+            })
+            $(".que2").click(function () {
+                $(".tang2").css("display", "none");
+            })
+            $(".que1").click(function () {
+                $(".tang1").css("display", "none");
+            })
+            $(".que2").click(function () {
+                $(".tang1").css("display", "none");
+            })
+        });
+
+    </script>
+    <script src="../JS/mejs.js"></script>
+</body>
+</html>

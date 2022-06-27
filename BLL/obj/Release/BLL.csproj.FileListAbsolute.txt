@@ -1,0 +1,11 @@
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Release\BLL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Release\BLL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Release\DAL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Release\Model.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Release\DAL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Release\Model.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Release\BLL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Release\BLL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Release\BLL.csproj.CopyComplete
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Release\BLL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Release\BLL.pdb

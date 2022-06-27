@@ -1,0 +1,11 @@
+html{height: 100%;}
+body.signin {
+    /* background: #18c8f6; */
+    height: auto;
+    /* background:url("../image/2.jpeg") no-repeat center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}

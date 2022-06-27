@@ -1,0 +1,88 @@
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\bin\Debug\Model.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\Lenovo\Desktop\大二卓越项目\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\周\Desktop\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\周\Desktop\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\周\Desktop\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\周\Desktop\ZY\BLL\bin\Debug\Model.dll
+C:\Users\周\Desktop\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\周\Desktop\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\周\Desktop\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\周\Desktop\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\周\Desktop\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\周\Desktop\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\周\Desktop\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\bin\Debug\Model.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\11635\Desktop\新建文件夹\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\Model.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\周\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\Model.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\11635\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\熙林\Desktop\新建文件夹 (2)\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\熙林\Desktop\1\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\熙林\Desktop\1\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\熙林\Desktop\1\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\熙林\Desktop\1\ZY\BLL\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\1\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\熙林\Desktop\1\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\1\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\1\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\1\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\熙林\Desktop\1\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\熙林\Desktop\1\ZY\BLL\obj\Debug\BLL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Debug\BLL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Debug\BLL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Debug\DAL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Debug\Model.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Debug\DAL.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\bin\Debug\Model.pdb
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Debug\BLL.dll
+C:\Users\熙林\Desktop\企业人力职业管理系统\ZY\BLL\obj\Debug\BLL.pdb

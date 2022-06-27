@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+dl,ul,ol,menu,li{
+    list-style: none;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:active,a:hover{
+    text-decoration:none;
+}
+img{
+    border: 0 none;
+}

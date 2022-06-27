@@ -1,0 +1,416 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20CEA4E2-C780-4FED-B44A-9AC9BEB42352}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ZY</RootNamespace>
+    <AssemblyName>ZY</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DataVisualization" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="2.HTML" />
+    <Content Include="Class\ClassAdd.aspx" />
+    <Content Include="Class\ClassMain.aspx" />
+    <Content Include="Class\EditClass.aspx" />
+    <Content Include="Class\EditPost.aspx" />
+    <Content Include="Class\PostAdd.aspx" />
+    <Content Include="Class\PostMain.aspx" />
+    <Content Include="Entry\EntryAdd.aspx" />
+    <Content Include="Entry\EntryHome.aspx" />
+    <Content Include="Font\bootstrap.min.css" />
+    <Content Include="Font\gog.css" />
+    <Content Include="Font\iconfont.css" />
+    <Content Include="Font\iconfont.js" />
+    <Content Include="Font\iconfont.svg" />
+    <Content Include="Font\moldbox.css" />
+    <Content Include="Font\s1.css" />
+    <Content Include="Font\shou1.css" />
+    <Content Include="Font\style.css" />
+    <Content Include="Font\style1.css" />
+    <Content Include="Font\1.css" />
+    <Content Include="Font\SYSFrame.css" />
+    <Content Include="Font\table.css" />
+    <Content Include="Font\T\buttons.dataTables.min.css" />
+    <Content Include="Font\T\jquery.datatables.min.css" />
+    <Content Include="Font\zzsc.css" />
+    <Content Include="Image\1.3.jpg" />
+    <Content Include="Image\1.jpg" />
+    <Content Include="Image\10.png" />
+    <Content Include="Image\11.png" />
+    <Content Include="Image\111.jpg" />
+    <Content Include="Image\1111.jpg" />
+    <Content Include="Image\12.png" />
+    <Content Include="Image\2.jpeg" />
+    <Content Include="Image\2.jpg" />
+    <Content Include="Image\3.jpg" />
+    <Content Include="Image\3.png" />
+    <Content Include="Image\4.png" />
+    <Content Include="Image\5.png" />
+    <Content Include="Image\6.png" />
+    <Content Include="Image\7.png" />
+    <Content Include="Image\8.png" />
+    <Content Include="Image\9.png" />
+    <Content Include="Image\add-select.png" />
+    <Content Include="Image\arrow-left.png" />
+    <Content Include="Image\arrow-right.png" />
+    <Content Include="Image\ashbin.png" />
+    <Content Include="Image\exchange rate.png" />
+    <Content Include="Image\falling.png" />
+    <Content Include="Image\key.png" />
+    <Content Include="Image\lock_icon_copy.png" />
+    <Content Include="Image\Loging.png" />
+    <Content Include="Image\logo.png" />
+    <Content Include="Image\long.jpg" />
+    <Content Include="Image\long1.jpg" />
+    <Content Include="Image\photo.jpg" />
+    <Content Include="Image\puff.svg" />
+    <Content Include="Image\search.png" />
+    <Content Include="Image\Starry.jpg" />
+    <Content Include="Image\tick.png" />
+    <Content Include="Image\user_icon_copy.png" />
+    <Content Include="Image\未标题-1.png" />
+    <Content Include="Index.aspx" />
+    <Content Include="JS\bootbox.min.js" />
+    <Content Include="JS\bootstrap.min.js" />
+    <Content Include="JS\Chart.js" />
+    <Content Include="JS\daochu\buttons.flash.min.js" />
+    <Content Include="JS\daochu\buttons.html5.min.js" />
+    <Content Include="JS\daochu\buttons.print.min.js" />
+    <Content Include="JS\daochu\dataTables.buttons.min.js" />
+    <Content Include="JS\daochu\jquery.datatables.min.js" />
+    <Content Include="JS\daochu\jszip.min.js" />
+    <Content Include="JS\daochu\pdfmake.min.js" />
+    <Content Include="JS\daochu\vfs_fonts.js" />
+    <Content Include="JS\excel-gen.js" />
+    <Content Include="JS\FileSaver.js" />
+    <Content Include="JS\google.js" />
+    <Content Include="JS\jquery-3.5.1.js" />
+    <Content Include="JS\jszip.min.js" />
+    <Content Include="JS\maps.js" />
+    <Content Include="JS\mejs.js" />
+    <Content Include="layer\layer.js" />
+    <Content Include="layer\mobile\layer.js" />
+    <Content Include="layer\mobile\need\layer.css" />
+    <Content Include="layer\theme\default\icon-ext.png" />
+    <Content Include="layer\theme\default\icon.png" />
+    <Content Include="layer\theme\default\layer.css" />
+    <Content Include="layer\theme\default\loading-0.gif" />
+    <Content Include="layer\theme\default\loading-1.gif" />
+    <Content Include="layer\theme\default\loading-2.gif" />
+    <Content Include="Leave\LeaveHome.aspx" />
+    <Content Include="Loging.aspx" />
+    <Content Include="Money\Money.aspx" />
+    <Content Include="My97DatePicker\calendar.js" />
+    <Content Include="My97DatePicker\lang\en.js" />
+    <Content Include="My97DatePicker\lang\zh-cn.js" />
+    <Content Include="My97DatePicker\lang\zh-tw.js" />
+    <Content Include="My97DatePicker\skin\datePicker.gif" />
+    <Content Include="My97DatePicker\skin\default\datepicker.css" />
+    <Content Include="My97DatePicker\skin\default\img.gif" />
+    <Content Include="My97DatePicker\skin\WdatePicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\bg.jpg" />
+    <Content Include="My97DatePicker\skin\whyGreen\datepicker.css" />
+    <Content Include="My97DatePicker\skin\whyGreen\img.gif" />
+    <Content Include="My97DatePicker\WdatePicker.js" />
+    <Content Include="Recruit\RecruitHome.aspx" />
+    <Content Include="Staff\StaffAdd.aspx" />
+    <Content Include="Staff\StaffHome.aspx" />
+    <Content Include="Staff\StaffUpd.aspx" />
+    <Content Include="Staff\StaffUpd1.aspx" />
+    <Content Include="Text\TextHome.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="Work\WorkHome.aspx" />
+    <Content Include="Work\WorkUpd.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ClassAdd.aspx.cs">
+      <DependentUpon>ClassAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\ClassAdd.aspx.designer.cs">
+      <DependentUpon>ClassAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\ClassMain.aspx.cs">
+      <DependentUpon>ClassMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\ClassMain.aspx.designer.cs">
+      <DependentUpon>ClassMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\EditClass.aspx.cs">
+      <DependentUpon>EditClass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\EditClass.aspx.designer.cs">
+      <DependentUpon>EditClass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\EditPost.aspx.cs">
+      <DependentUpon>EditPost.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\EditPost.aspx.designer.cs">
+      <DependentUpon>EditPost.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\PostAdd.aspx.cs">
+      <DependentUpon>PostAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\PostAdd.aspx.designer.cs">
+      <DependentUpon>PostAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Class\PostMain.aspx.cs">
+      <DependentUpon>PostMain.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Class\PostMain.aspx.designer.cs">
+      <DependentUpon>PostMain.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entry\EntryAdd.aspx.cs">
+      <DependentUpon>EntryAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entry\EntryAdd.aspx.designer.cs">
+      <DependentUpon>EntryAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Entry\EntryHome.aspx.cs">
+      <DependentUpon>EntryHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Entry\EntryHome.aspx.designer.cs">
+      <DependentUpon>EntryHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Leave\LeaveHome.aspx.cs">
+      <DependentUpon>LeaveHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Leave\LeaveHome.aspx.designer.cs">
+      <DependentUpon>LeaveHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Loging.aspx.cs">
+      <DependentUpon>Loging.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Loging.aspx.designer.cs">
+      <DependentUpon>Loging.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Index1.Master.cs">
+      <DependentUpon>Index1.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Index1.Master.designer.cs">
+      <DependentUpon>Index1.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Master\Index.Master.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Master\Index.Master.designer.cs">
+      <DependentUpon>Index.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Money\Money.aspx.cs">
+      <DependentUpon>Money.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Money\Money.aspx.designer.cs">
+      <DependentUpon>Money.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Recruit\RecruitHome.aspx.cs">
+      <DependentUpon>RecruitHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Recruit\RecruitHome.aspx.designer.cs">
+      <DependentUpon>RecruitHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffAdd.aspx.cs">
+      <DependentUpon>StaffAdd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffAdd.aspx.designer.cs">
+      <DependentUpon>StaffAdd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffHome.aspx.cs">
+      <DependentUpon>StaffHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffHome.aspx.designer.cs">
+      <DependentUpon>StaffHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffUpd.aspx.cs">
+      <DependentUpon>StaffUpd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffUpd.aspx.designer.cs">
+      <DependentUpon>StaffUpd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\StaffUpd1.aspx.cs">
+      <DependentUpon>StaffUpd1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staff\StaffUpd1.aspx.designer.cs">
+      <DependentUpon>StaffUpd1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Text\TextHome.aspx.cs">
+      <DependentUpon>TextHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Text\TextHome.aspx.designer.cs">
+      <DependentUpon>TextHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Work\WorkHome.aspx.cs">
+      <DependentUpon>WorkHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Work\WorkHome.aspx.designer.cs">
+      <DependentUpon>WorkHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Work\WorkUpd.aspx.cs">
+      <DependentUpon>WorkUpd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Work\WorkUpd.aspx.designer.cs">
+      <DependentUpon>WorkUpd.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Master\Index1.Master" />
+    <Content Include="Font\iconfont.eot" />
+    <Content Include="Font\iconfont.ttf" />
+    <Content Include="Font\iconfont.woff" />
+    <Content Include="Master\Index.Master" />
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{add68a53-d8ae-448a-9c5a-bedc190090ca}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DAL\DAL.csproj">
+      <Project>{704ff3be-b963-40ae-9925-29bf36e4e6a2}</Project>
+      <Name>DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Model\Model.csproj">
+      <Project>{e9ca6886-c703-4669-87dc-98184232d9d1}</Project>
+      <Name>Model</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Step\" />
+    <Folder Include="Train\" />
+    <Folder Include="Users\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>49463</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:49463/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>这台计算机上缺少此项目引用的 NuGet 程序包。使用“NuGet 程序包还原”可下载这些程序包。有关更多信息，请参见 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的文件是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
